@@ -1,0 +1,23 @@
+.board {
+  margin: auto;
+  background-color: #ddd;
+  overflow: hidden;
+  outline: none;
+  border: 2px solid #000;
+}
+
+.cell,
+.body-cell {
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  overflow: hidden;
+  float: left;
+}
+
+.body-cell {
+  background-color: blue;
+}
+
+.food-cell {
+}
